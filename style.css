@@ -1,0 +1,94 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #0F0A03;
+  background-color: #f5f6f7;
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  color: #444546;
+  line-height: 180%;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto; /* This automatically sets left/right margins */
+  }
+}
+
+
+
+.card {
+  background-color: #FFFFFF;
+  border: 1px solid #F8FDFF;
+  border-radius: 20px;
+  box-shadow: 1px 1px 3px #F9FDFF;
+  padding: 25px 150px;
+  margin: 25px;
+}
+
+.img-circle {
+  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  padding: 0px 20px;
+  display: inline-block;
+  font-size: 50px;
+}
+
+.fab {
+  color: #7f8486;
+  font-size: 50px;
+}
+
+.fab:hover {
+  color: #5A5C5D;
+  font-size: 50px;
+}
+
+.btn {
+    background-color: #7f8486;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #5A5C5D;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
