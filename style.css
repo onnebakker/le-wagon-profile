@@ -34,6 +34,18 @@ a {
   margin: 25px;
 }
 
+.card2 {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+}
+
+.card2child {
+  width: 40%;
+  height: 40%;
+}
+
+
 .btn {
     background-color: #7f8486;
     padding: 5px 8px;
